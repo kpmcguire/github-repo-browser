@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "kpmcguire-debtcollective-github-repos",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "displays the github repos of DebtCollective",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,18 +14,13 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.21.37",
+    "@loadable/component": "^5.12.0",
+    "gatsby": "^2.22.12",
+    "gatsby-cli": "^2.12.36",
+    "gatsby-source-graphql": "^2.1.29",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
-  "devDependencies": {
-    "prettier": "2.0.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "react-dom": "^16.12.0",
+    "react-smart-data-table": "^0.7.4",
+    "shoelace-css": "^1.0.0-beta24"
   }
 }

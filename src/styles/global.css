@@ -1,0 +1,26 @@
+.thumb {
+  width: 45px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+table th {
+  white-space: nowrap;
+}
+
+tbody tr td:nth-child(1),
+thead tr th:nth-child(1) {
+  display: none
+}
+
+tbody tr td:nth-child(2) {
+  font-weight: bold;
+}
+
+button.rsdt-paginate.button {
+  height: auto
+}
+
+body {
+  padding: 1em;
+}
