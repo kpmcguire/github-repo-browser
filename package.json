@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@loadable/component": "^5.12.0",
-    "gatsby": "^2.22.12",
+    "gatsby": "^4.25.7",
     "gatsby-cli": "^2.12.36",
     "gatsby-source-graphql": "^2.1.29",
     "react": "^16.12.0",
